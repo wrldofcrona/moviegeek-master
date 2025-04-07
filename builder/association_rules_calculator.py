@@ -1,6 +1,7 @@
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "prs_project.settings")
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "prs_project.settings.py")
 
 import django
 django.setup()
